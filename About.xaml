@@ -20,6 +20,6 @@
             </MenuBarItem>
 
         </MenuBar>
-        <TextBox HorizontalAlignment="Center" Height="133" TextWrapping="Wrap" Text="Ja sam luka Kučko. Idfem u Srednju strukovnu školu, Samobotr." VerticalAlignment="Center" Width="526"/>
+        <TextBox HorizontalAlignment="Center" Height="133" TextWrapping="Wrap" Text="Ja sam Luka Kučko. Idem u Srednju strukovnu školu, Samobor." VerticalAlignment="Center" Width="526"/>
     </Grid>
 </Page>

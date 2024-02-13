@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
@@ -35,6 +36,11 @@ namespace Memory
         private void MenuFlyoutItem_Click_1(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(About));
+        }
+
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            (sender as Image).Source = new BitmapImage(new Uri("https://htmlcolorcodes.com/assets/images/colors/black-color-solid-background-1920x1080.png"));
         }
     }
 }

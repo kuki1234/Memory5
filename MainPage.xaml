@@ -12,6 +12,7 @@
         <MenuBar HorizontalAlignment="Left" Margin="0,0,0,960">
             <MenuBarItem Title="File">
                 <MenuFlyoutItem Text="Exit" Click="MenuFlyoutItem_Click"></MenuFlyoutItem>
+                <MenuFlyoutItem Text="Igra" Click="MenuFlyoutItem_Click"></MenuFlyoutItem>
             </MenuBarItem>
 
             <MenuBarItem Title="Help">
